@@ -1,0 +1,51 @@
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.answer {
+  margin: 20px;
+  margin-top: 100px;
+  font-size: 30px;
+  width: 20%;
+  text-align: right;
+
+  color: salmon;
+  background-color: antiquewhite;
+  border: 5px solid wheat;
+  padding: 5px 10px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: salmon;
+  background-color: antiquewhite;
+  border: 5px solid wheat;
+  cursor: pointer;
+}
